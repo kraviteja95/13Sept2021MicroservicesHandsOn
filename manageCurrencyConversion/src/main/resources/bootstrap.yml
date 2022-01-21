@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: manageCurrencyConversion
+  config:
+    name: configserver
+    uri: http://localhost:${config.port:9082}
+  profiles:
+    active: native
+
+management.endpoints.web.exposure.include: '*'
+
+server:
+  port: 9082
