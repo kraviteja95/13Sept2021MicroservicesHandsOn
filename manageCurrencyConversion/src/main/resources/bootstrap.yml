@@ -6,6 +6,17 @@ spring:
     uri: http://localhost:${config.port:9082}
   profiles:
     active: native
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:manageCurrencyConversion
+    username: sa
+    password: password
+    database-platform: org:hibernate:dialect:H2Dialect
 
 management.endpoints.web.exposure.include: '*'
 
