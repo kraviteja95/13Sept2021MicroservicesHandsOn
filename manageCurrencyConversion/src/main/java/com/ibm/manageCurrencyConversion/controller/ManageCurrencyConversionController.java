@@ -52,7 +52,7 @@ public class ManageCurrencyConversionController {
 	// Get record by ID using API
     @GetMapping("/getRecords/{countryCode}")
     public ResponseEntity<ManageCurrencyConversion> getConversionFactorByCountryCode(@PathVariable String countryCode) {
-    	ManageCurrencyConversion manageCurrencyConversion = manageCurrencyConversionRepository.findByCountryCode(countryCode);        
+    	ManageCurrencyConversion manageCurrencyConversion = manageCurrencyConversionRepository.findByCountryCode(countryCode);
         return ResponseEntity.ok(manageCurrencyConversion);
     }
 
