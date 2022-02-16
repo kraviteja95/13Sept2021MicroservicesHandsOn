@@ -4,15 +4,15 @@ networks:
     external: true
 
 services:
-  eurekaserver:
-    build: eurekaserver/
-    container_name: eurekaserver
-    image: eurekaserver
-    ports:
-      - 8761:8761
-    restart: on-failure
-    networks:
-      - localhost
+#  eurekaserver:
+#    build: eurekaserver/
+#    container_name: eurekaserver
+#    image: eurekaserver
+#    ports:
+#      - 8761:8761
+#    restart: on-failure
+#    networks:
+#      - localhost
 
   managecurrencyconversion:
     build: manageCurrencyConversion/
@@ -21,11 +21,6 @@ services:
     ports:
       - 9082:9082
     restart: on-failure
-    environment:
-      #overriding spring application.yml
-      - eureka.client.serviceUrl.defaultZone=http://eurekaserver:8761/eureka/
-    depends_on:
-      - eurekaserver
     networks:
       - localhost
 
@@ -36,10 +31,7 @@ services:
     ports:
       - 9083:9083
     restart: on-failure
-    environment:
-      #overriding spring application.yml
-      - eureka.client.serviceUrl.defaultZone=http://eurekaserver:8761/eureka/
     depends_on:
-      - eurekaserver
+      - managecurrencyconversion
     networks:
       - localhost

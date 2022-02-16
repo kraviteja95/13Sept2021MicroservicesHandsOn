@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.ibm.currencyConverter.dto.ManageCurrencyConversionDto;
 
-@FeignClient(name = "manageCurrencyConversion")
+@FeignClient(name = "managecurrencyconversion")
 public interface ManageCurrencyConversionClient {
 
 	@RequestMapping(value = "/manageCurrencyConversion/getRecords/{countryCode}", method = RequestMethod.GET)

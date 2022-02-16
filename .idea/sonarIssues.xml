@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/currencyConverter/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/currencyConverter/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/currencyConverter/src/main/java/com/ibm/currencyConverter/CurrencyConverterApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/currencyConverter/src/main/java/com/ibm/currencyConverter/client/ManageCurrencyConversionClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/currencyConverter/src/main/java/com/ibm/currencyConverter/client/ManageCurrencyConversionLoadBalancer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/currencyConverter/src/main/resources/application-kubernetes.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/currencyConverter/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/currencyConverter/src/test/java/com/ibm/currencyConverter/CurrencyConverterApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docker-compose.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/eurekaserver/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/eurekaserver/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kubernetes/currencyconverter-deployment.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kubernetes/currencyconverterdeployment.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kubernetes/eurekaserver-deployment.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kubernetes/eurekaserverdeployment.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kubernetes/managecurrencyconversion-deployment.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kubernetes/managecurrencyconversiondeployment.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kubernetes/services/currencyconverter-service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kubernetes/services/eurekaserver-service-nodeport.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kubernetes/services/eurekaserver-service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/kubernetes/services/managecurrencyconversion-service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/manageCurrencyConversion/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/manageCurrencyConversion/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/manageCurrencyConversion/src/main/java/com/ibm/manageCurrencyConversion/ManageCurrencyConversionApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/manageCurrencyConversion/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/eurekaserver/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/eurekaserver/src/main/java/com/onlinegrocery/eurekaserver/EurekaserverApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/eurekaserver/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/loginMicroService/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/loginMicroService/src/main/java/com/onlinegrocery/loginMicroService/LoginMicroServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/loginMicroService/src/main/java/com/onlinegrocery/loginMicroService/controller/LoginMicroServiceController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/loginMicroService/src/main/java/com/onlinegrocery/loginMicroService/util/JwtUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/loginMicroService/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/loginMicroService/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/loginMicroService/src/main/resources/static/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/loginMicroService/src/test/java/com/onlinegrocery/loginMicroService/LoginMicroServiceApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/main/java/com/onlinegrocery/orderMicroService/OrderMicroServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/main/java/com/onlinegrocery/orderMicroService/controller/OrderMicroServiceController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/main/java/com/onlinegrocery/orderMicroService/entity/Order.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/main/java/com/onlinegrocery/orderMicroService/entity/OrderAudit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/main/java/com/onlinegrocery/orderMicroService/repository/OrderAuditRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/main/java/com/onlinegrocery/orderMicroService/repository/OrderRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/main/java/com/onlinegrocery/orderMicroService/service/OrderServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/main/java/com/onlinegrocery/orderMicroService/service/OrderServices.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/main/java/com/onlinegrocery/orderMicroService/util/OrderTokenUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../13To17Sep2021MsCaseStudy/orderMicroService/src/test/java/com/onlinegrocery/orderMicroService/OrderMicroServiceApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../Projects at IBM/BPI/Codes/riskmanagement/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/microservices-code-master/loginms/src/main/java/com/ibm/loginms/LoginmsApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/microservices-code-master/loginms/src/main/resources/application.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,40 @@
+#Deployment file
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: currencyconverter-deployment
+  labels:
+    app: currencyconverter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: currencyconverter
+  template:
+    metadata:
+      labels:
+        app: currencyconverter
+    spec:
+      containers:
+        - name: currencyconverter
+          imagePullPolicy: Never
+          image: currencyconverter
+          ports:
+            - containerPort: 9083
+
+---
+#service file
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: currencyconverter
+spec:
+  type: NodePort
+  ports:
+    - port: 9083
+      targetPort: 9083
+      nodePort: 31766
+  selector:
+    app: currencyconverter
