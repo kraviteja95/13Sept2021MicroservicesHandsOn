@@ -58,6 +58,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/kubernetes/currencyconverter-deployment.yaml">
           <value>
             <set />
@@ -119,6 +124,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/manageCurrencyConversion/src/main/java/com/ibm/manageCurrencyConversion/ManageCurrencyConversionApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/manageCurrencyConversion/src/main/resources/application-kubernetes.yml">
           <value>
             <set />
           </value>

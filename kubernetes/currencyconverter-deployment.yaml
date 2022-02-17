@@ -21,10 +21,17 @@ spec:
           imagePullPolicy: Never
           image: currencyconverter
           ports:
-            - containerPort: 9083
+          - containerPort: 9083
+          env:
+          - name: _JAVA_OPTIONS
+            value: -Deureka.client.serviceUrl.defaultZone=http://eurekaserver:8761/eureka/
+          - name: EUREKA_CLIENT_REGISTERWITHEUREKA
+            value: "true"
+          - name: EUREKA_CLIENT_FETCHREGISTRY
+            value: "true"
 
 ---
-#service file
+#Service file
 
 apiVersion: v1
 kind: Service
@@ -35,6 +42,6 @@ spec:
   ports:
     - port: 9083
       targetPort: 9083
-      nodePort: 31766
+      nodePort: 31767
   selector:
     app: currencyconverter
